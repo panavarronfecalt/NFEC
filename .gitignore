@@ -1,0 +1,13 @@
+
+*.env
+imagens_canhoto/
+venv/
+uploads/
+app.py
+nfec.py
+crm.py
+nfec.py
+nfeb.py
+app.log
+
+
