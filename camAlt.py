@@ -27,7 +27,7 @@ def conectar_banco():
     return pyodbc.connect(conn_str)
 
 # Configuração da página
-st.set_page_config(page_title='Dinatec - Canhoto Nota Fiscal', 
+st.set_page_config(page_title='Alternativa - Canhoto Nota Fiscal', 
                    layout='wide', 
                    page_icon=':truck:',
                    initial_sidebar_state="collapsed",
