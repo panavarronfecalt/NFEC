@@ -55,7 +55,7 @@ def colored_divider(color="#3498db", height="2px"):
     )
 
 # Função para carregar e exibir a logomarca e a hora
-def exibir_logo(logo_path="logoalt.jpg"):
+def exibir_logo(logo_path="logoalt.png"):
     col1, col2 = st.columns([1, 2])  # Cria duas colunas para layout
     with col1:
         if os.path.exists(logo_path):
@@ -220,7 +220,7 @@ footer = """
 """
 
 # Exibir logomarca no topo da página
-exibir_logo("logoalt.jpg")
+exibir_logo("logoalt.png")
 
 # Menu de navegação
 pagina = st.sidebar.selectbox("Selecione a página", ["📸 Captura de Imagem", "🔍 Consulta de Canhoto", "📩 Envio de E-mail", "🗂️ Salvar Nota Fiscal"])
