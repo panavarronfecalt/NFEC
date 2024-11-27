@@ -55,7 +55,7 @@ def colored_divider(color="#3498db", height="2px"):
     )
 
 # Função para carregar e exibir a logomarca e a hora
-def exibir_logo(logo_path="logo.jpg"):
+def exibir_logo(logo_path="logoalt.jpg"):
     col1, col2 = st.columns([1, 2])  # Cria duas colunas para layout
     with col1:
         if os.path.exists(logo_path):
