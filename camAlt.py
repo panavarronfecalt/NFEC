@@ -60,7 +60,7 @@ def exibir_logo(logo_path="logoalt.png"):
     with col1:
         if os.path.exists(logo_path):
             logo = Image.open(logo_path)
-            st.image(logo, width=500)  # Exibe a logomarca com largura ajustável
+            st.image(logo, width=600)  # Exibe a logomarca com largura ajustável
     with col2:
         quantidade_canhotos = contar_canhotos()
         st.title("📌 Sistema Captura e Consulta Canhoto - Grupo Dinatec")
