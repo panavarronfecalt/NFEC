@@ -220,7 +220,7 @@ footer = """
 """
 
 # Exibir logomarca no topo da página
-exibir_logo("logo.jpg")
+exibir_logo("logoalt.jpg")
 
 # Menu de navegação
 pagina = st.sidebar.selectbox("Selecione a página", ["📸 Captura de Imagem", "🔍 Consulta de Canhoto", "📩 Envio de E-mail", "🗂️ Salvar Nota Fiscal"])
